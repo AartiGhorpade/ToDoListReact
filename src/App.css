@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  background-color: rgb(3, 3, 49);
+  color: white;
+}
+.App {
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.todoApp .card{
+  background-color: transparent;
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+.add-icon{
+  position: absolute;
+  color: black;
+  margin-top: -5%;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.productName{
+  background-color: blueviolet;
+  margin-top: 20px;
+  color: white;
+  padding: 12px;
+  border-radius: 4px;
+  text-align: left;
+}
+.delete-icon{
+  position: absolute;
+  right: 28px;
+  cursor: pointer;
+}
+.edit-icon{
+  position: absolute;
+  right: 56px;
+  cursor: pointer;
+}
